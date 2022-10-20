@@ -10,7 +10,7 @@ describe 'Shoe' do
     let(:shoe) { Shoe.new("Nike") }
 
     it 'has a brand' do
-      # When must the brand be assigned for this to work?
+      # When must the brand be assigned for this to work? - When instantiating class
       expect(shoe.brand).to eq("Nike")
     end
 
